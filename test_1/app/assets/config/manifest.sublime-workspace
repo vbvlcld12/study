@@ -1,0 +1,551 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"M",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"borde",
+				"border-style"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"sub",
+				"subTax"
+			],
+			[
+				"em",
+				"email_form"
+			],
+			[
+				"email",
+				"email_form"
+			],
+			[
+				"nam",
+				"nambi"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"do",
+				"dob\tInsert do |variable| … end"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"poo",
+				"position"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"j",
+				"j.i\tjava.io."
+			],
+			[
+				"soc",
+				"sockets"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"bo",
+				"body-parser"
+			],
+			[
+				"d",
+				"DummyDB"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"sen",
+				"sendStatus"
+			],
+			[
+				"image",
+				"imageFile"
+			],
+			[
+				"ima",
+				"imageFile"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"coo",
+				"cookieParser"
+			],
+			[
+				"get",
+				"getCookie"
+			],
+			[
+				"co",
+				"cookieParser"
+			],
+			[
+				"router",
+				"routerA"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"onUncaughtException"
+			],
+			[
+				"de",
+				"decipherOutput"
+			],
+			[
+				"cipher",
+				"cipheredOutput"
+			],
+			[
+				"cr",
+				"crypto"
+			],
+			[
+				"w",
+				"writeFile"
+			],
+			[
+				"pars",
+				"parsedObject"
+			],
+			[
+				"r",
+				"radius"
+			],
+			[
+				"exit",
+				"exitTime"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"thema",
+				"Material Theme: Activate theme"
+			],
+			[
+				"package list",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"exit",
+			"clear",
+			"ls",
+			":test.html",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gimjunho/Desktop/라이브코딩/ex5.css",
+		"/Users/gimjunho/Desktop/라이브코딩/ex3.css",
+		"/Users/gimjunho/Desktop/라이브코딩/ttttt.html",
+		"/Users/gimjunho/Desktop/라이브코딩/ex5.html",
+		"/Users/gimjunho/Desktop/라이브코딩/ex3.html",
+		"/Users/gimjunho/Desktop/라이브코딩/ex2.css",
+		"/Users/gimjunho/Desktop/라이브코딩/ex1.css",
+		"/Users/gimjunho/Desktop/ex5.html",
+		"/Users/gimjunho/Desktop/ex1.html",
+		"/Users/gimjunho/Desktop/ex4.html",
+		"/Users/gimjunho/Desktop/ex2.html",
+		"/Users/gimjunho/Desktop/ex3.html",
+		"/Users/gimjunho/Desktop/ex5.css",
+		"/Users/gimjunho/Desktop/ex4.css",
+		"/Users/gimjunho/Desktop/ex3.css",
+		"/Users/gimjunho/Desktop/ex2.css",
+		"/Users/gimjunho/Desktop/ex1.css",
+		"/Users/gimjunho/Desktop/test.css",
+		"/Users/gimjunho/Desktop/test.html",
+		"/Users/gimjunho/Desktop/pizza.js",
+		"/Users/gimjunho/Desktop/mkd.md",
+		"/Users/gimjunho/Desktop/git_prac/test.html",
+		"/Users/gimjunho/Desktop/git_prac/project",
+		"/Users/gimjunho/Desktop/codelion/contact/app/views/email/email_send.erb",
+		"/Users/gimjunho/Desktop/codelion/contact/app/controllers/email_controller.rb",
+		"/Users/gimjunho/Desktop/codelion/contact/app/views/email/email_form.erb",
+		"/Users/gimjunho/Desktop/codelion/contact/Gemfile",
+		"/Users/gimjunho/Desktop/codelion/contact/app/controllers/application_controller.rb",
+		"/Users/gimjunho/Desktop/mvc/app/controllers/home_controller.rb",
+		"/Users/gimjunho/Desktop/mvc/config/routes.rb",
+		"/Users/gimjunho/Desktop/mvc/app/views/home/hello.erb",
+		"/Users/gimjunho/Desktop/perfect/app/controllers/make_controller.rb",
+		"/Users/gimjunho/Desktop/perfect/app/views/practice.erb",
+		"/Users/gimjunho/Desktop/week3/app/views/practice/codelion.js",
+		"/Users/gimjunho/Desktop/week3/config/routes.rb",
+		"/Users/gimjunho/Desktop/week3/app/controllers/nambi_controller.rb",
+		"/Users/gimjunho/Desktop/week3/app/controllers/spoon_controller.rb",
+		"/Users/gimjunho/Desktop/week3/app/views/spoon/body.erb",
+		"/Users/gimjunho/Desktop/week3/app/views/nambi/hand.erb",
+		"/Users/gimjunho/Desktop/week3/app/views/nambi/ddukkung.erb",
+		"/Users/gimjunho/Desktop/week3/public/index.html",
+		"/Users/gimjunho/Desktop/opentutorials/js/doctor.js",
+		"/Users/gimjunho/Desktop/opentutorials/js/sample.html",
+		"/Users/gimjunho/Desktop/opentutorials/js/style.css",
+		"/Users/gimjunho/Desktop/array_hashes.rb",
+		"/Users/gimjunho/Desktop/opentutorials/js/codecademyruby_loop.rb",
+		"/Users/gimjunho/Desktop/opentutorials/js/demo1.html",
+		"/Users/gimjunho/Desktop/opentutorials/js/ruby.rb",
+		"/Users/gimjunho/Desktop/my_program.rb",
+		"/Users/gimjunho/Desktop/js.html",
+		"/Users/gimjunho/Desktop/demo/index.html",
+		"/Users/gimjunho/Desktop/demo/style.css",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/gimjunho/Desktop/index.html",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/gimjunho/test",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/gimjunho/demo",
+		"/Users/gimjunho/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/gimjunho/Desktop/harry/config/mongoid.yml",
+		"/Users/gimjunho/Desktop/harry/config/application.rb",
+		"/Users/gimjunho/Desktop/opentutorials.sublime-project",
+		"/Users/gimjunho/Desktop/source/12/solution.js",
+		"/Users/gimjunho/Desktop/chapter11/11-12.js",
+		"/Users/gimjunho/Desktop/chapter11/11-11.js",
+		"/Users/gimjunho/Desktop/chapter11/11-3.js",
+		"/Users/gimjunho/Desktop/workspace/HelloExpress/views/product.jade",
+		"/Users/gimjunho/Desktop/workspace/HelloExpress/views/index.jade",
+		"/Users/gimjunho/Desktop/workspace/HelloExpress/routes/index.js",
+		"/Users/gimjunho/Desktop/workspace/HelloExpress/app.js",
+		"/Users/gimjunho/Desktop/workspace/9-8.js",
+		"/Users/gimjunho/Desktop/workspace/edit.html",
+		"/Users/gimjunho/Desktop/workspace/insert.html",
+		"/Users/gimjunho/Desktop/workspace/list.html",
+		"/Users/gimjunho/Desktop/workspace/HelloExpress/package.json",
+		"/Users/gimjunho/Desktop/workspace/diamond.rb",
+		"/Users/gimjunho/Desktop/workspace/9-5.js",
+		"/Users/gimjunho/Desktop/workspace/8-34.js",
+		"/Users/gimjunho/Desktop/workspace/8-35.js",
+		"/Users/gimjunho/Desktop/workspace/8-40.js",
+		"/Users/gimjunho/Desktop/workspace/8-42.js",
+		"/Users/gimjunho/Desktop/workspace/3-39.js",
+		"/Users/gimjunho/Desktop/workspace/HTMLPage.html",
+		"/Users/gimjunho/Desktop/workspace/8-27.js",
+		"/Users/gimjunho/Desktop/workspace/8-29.js",
+		"/Users/gimjunho/Desktop/workspace/8-31.js",
+		"/Users/gimjunho/Desktop/workspace/8-24.js",
+		"/Users/gimjunho/Desktop/workspace/login.html",
+		"/Users/gimjunho/Desktop/workspace/8-22.js",
+		"/Users/gimjunho/Desktop/workspace/8-25.js",
+		"/Users/gimjunho/Desktop/workspace/8-20.js",
+		"/Users/gimjunho/Desktop/workspace/8-32.js",
+		"/Users/gimjunho/Desktop/workspace/8-33.js",
+		"/Users/gimjunho/Desktop/workspace/8-19.js",
+		"/Users/gimjunho/Desktop/workspace/8-18.js",
+		"/Users/gimjunho/Desktop/workspace/8-17.js",
+		"/Users/gimjunho/Desktop/workspace/index.js",
+		"/Users/gimjunho/Desktop/workspace/routerA.js",
+		"/Users/gimjunho/Desktop/workspace/8-15.js",
+		"/Users/gimjunho/Desktop/workspace/8-14.js",
+		"/Users/gimjunho/Desktop/workspace/8-13.js",
+		"/Users/gimjunho/Desktop/workspace/8-12.js",
+		"/Users/gimjunho/Desktop/workspace/8-11.js",
+		"/Users/gimjunho/Desktop/workspace/8-10.js",
+		"/Users/gimjunho/Desktop/workspace/8-9.js",
+		"/Users/gimjunho/Desktop/workspace/8-8.js",
+		"/Users/gimjunho/Desktop/workspace/8-7.js",
+		"/Users/gimjunho/Desktop/workspace/8-9.ㅓㄴ",
+		"/Users/gimjunho/Desktop/workspace/8-5.js",
+		"/Users/gimjunho/Desktop/workspace/JadePage.jade",
+		"/Users/gimjunho/Desktop/workspace/7-12.js",
+		"/Users/gimjunho/Desktop/workspace/test.server.js",
+		"/Users/gimjunho/Desktop/workspace/7-22.js",
+		"/Users/gimjunho/Desktop/workspace/app.js",
+		"/Users/gimjunho/Desktop/workspace/8-6.js",
+		"/Users/gimjunho/Desktop/workspace/6-21.js",
+		"/Users/gimjunho/Desktop/workspace/6-23.js",
+		"/Users/gimjunho/Desktop/workspace/HTMLPage2.html",
+		"/Users/gimjunho/Desktop/workspace/request.post.js",
+		"/Users/gimjunho/Desktop/workspace/6-28.js",
+		"/Users/gimjunho/Desktop/workspace/package.json",
+		"/Users/gimjunho/Desktop/workspace/OtherPage.html",
+		"/Users/gimjunho/Desktop/workspace/Index.html",
+		"/Users/gimjunho/Desktop/workspace/6-14.js",
+		"/Users/gimjunho/Desktop/workspace/6-13.js",
+		"/Users/gimjunho/Desktop/workspace/6-19.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"text",
+			"post",
+			"tr",
+			"move",
+			"ctrl",
+			"opt",
+			"option",
+			"down",
+			"tr",
+			"></",
+			"\n<",
+			"tr",
+			"body",
+			"key",
+			"hosts",
+			"harry_development",
+			"localhost",
+			"');\n",
+			"activemodel",
+			"moped",
+			"mo",
+			"mongo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manifest.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

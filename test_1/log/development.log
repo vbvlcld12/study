@@ -1,0 +1,104 @@
+Started GET "/" for 127.0.0.1 at 2017-02-14 21:27:06 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (8.2ms)
+Completed 200 OK in 39ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_form" for 127.0.0.1 at 2017-02-14 21:32:45 +0900
+Processing by EmailController#email_form as HTML
+  Rendering email/email_form.erb within layouts/application
+  Rendered email/email_form.erb within layouts/application (0.4ms)
+Completed 200 OK in 911ms (Views: 909.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_send?email=test%40gmail.com&content=sjdjoadjsajddasd" for 127.0.0.1 at 2017-02-14 21:33:16 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"test@gmail.com", "content"=>"sjdjoadjsajddasd"}
+  Rendering email/email_send.erb within layouts/application
+  Rendered email/email_send.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_form" for 127.0.0.1 at 2017-02-14 21:38:51 +0900
+Processing by EmailController#email_form as HTML
+  Rendering email/email_form.erb within layouts/application
+  Rendered email/email_form.erb within layouts/application (3.0ms)
+Completed 200 OK in 328ms (Views: 313.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_send?email=wnsgh6315%40gmail.com&content=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%0D%0A%EC%97%B4%EC%8B%AC%ED%9E%88+%ED%95%B4%EC%9A%94" for 127.0.0.1 at 2017-02-14 21:39:05 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"wnsgh6315@gmail.com", "content"=>"안녕하세요\r\n열심히 해요"}
+  Rendering email/email_send.erb within layouts/application
+  Rendered email/email_send.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_form" for 127.0.0.1 at 2017-02-14 21:42:51 +0900
+Processing by EmailController#email_form as HTML
+  Rendering email/email_form.erb within layouts/application
+  Rendered email/email_form.erb within layouts/application (2.3ms)
+Completed 200 OK in 304ms (Views: 290.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/email/email_send" for 127.0.0.1 at 2017-02-14 21:43:10 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"wnsgh6315@gmail.com", "content"=>"post 방식이니 이제 안나올꺼야"}
+  Rendering email/email_send.erb within layouts/application
+  Rendered email/email_send.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/email/email_form" for 127.0.0.1 at 2017-02-14 21:51:43 +0900
+Processing by EmailController#email_form as HTML
+  Rendering email/email_form.erb within layouts/application
+  Rendered email/email_form.erb within layouts/application (2.5ms)
+Completed 200 OK in 275ms (Views: 260.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/email/email_send" for 127.0.0.1 at 2017-02-14 21:52:29 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"wnsgh6315@gmail.com", "title"=>"진짜로 보내지나", "content"=>"테스트입니다."}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `-' for nil:NilClass):
+  
+app/controllers/email_controller.rb:7:in `email_send'
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.4ms)
+Started POST "/email/email_send" for 127.0.0.1 at 2017-02-14 21:53:32 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"wnsgh6315@gmail.com", "title"=>"진짜로 보내지나", "content"=>"테스트입니다."}
+Completed 500 Internal Server Error in 458ms (ActiveRecord: 0.0ms)
+
+
+  
+Encoding::CompatibilityError (incompatible encoding regexp match (ASCII-8BIT regexp with UTF-8 string)):
+  
+app/controllers/email_controller.rb:10:in `email_send'
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gimjunho/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.0ms)
+Started POST "/email/email_send" for 127.0.0.1 at 2017-02-14 21:54:07 +0900
+Processing by EmailController#email_send as HTML
+  Parameters: {"email"=>"wnsgh6315@gmail.com", "title"=>"진짜로 보내지나", "content"=>"테스트입니다."}
+  Rendering email/email_send.erb within layouts/application
+  Rendered email/email_send.erb within layouts/application (0.7ms)
+Completed 200 OK in 2294ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
